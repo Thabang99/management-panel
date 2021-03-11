@@ -28,5 +28,5 @@ Admin
 user: demo@demo.com
 pass: demo
 
-****** https://www.campcodes.com ******
-Subcribe my Youtube Channel ****SerBermz****
+****** https:1sourcecodr.blogspot.com ******
+Subcribe my You tube Channel **** 1 Source code ****

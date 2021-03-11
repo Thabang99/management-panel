@@ -1,4 +1,17 @@
-<!--footer start-->
+<!--footer start
+<footer class="site-footer">
+	<div class="text-center">
+		2015 &copy;
+		<?=$impostazioni[0]['titolo'];
+if (!$impostazioni[0]['showcredit']) {
+    ?>
+        <span style="font-size: 80%; padding-right: 10px;"><a class="rate" href="http://codecanyon.net/downloads"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></a><?=$this->lang->line('sviluppatoda');?> <a href="http://luigiverzi.it" style="color: lightgrey;">Luigi Verzì</a></span>
+			<?php 
+} ?>
+				<a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
+	</div>
+</footer>
+-->
 
 <!--footer end-->
 </section>

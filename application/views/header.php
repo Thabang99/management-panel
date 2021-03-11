@@ -12,19 +12,18 @@
 		<title><?=$impostazioni[0]['titolo']; ?> - <?=$this->lang->line('pannello_dc_w');?></title>
 
 
-        <script><?=include(FCPATH.'js/jquery.js');?></script>
-		<link href="<?=site_url('css/bootstrap.min.css'); ?>" rel="stylesheet">
-		<link href="<?=site_url('css/hover.css'); ?>" rel="stylesheet">
-		<link href="<?=site_url('css/bootstrap-reset.css'); ?>" rel="stylesheet">
-		<link href="<?=site_url('assets/font-awesome/css/font-awesome.css'); ?>" rel="stylesheet" />
-		<link href="<?=site_url('assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css'); ?>" rel="stylesheet" type="text/css" media="screen" />
-		<link rel="stylesheet" href="<?=site_url('css/owl.carousel.css'); ?>" type="text/css">
-        <link rel="stylesheet" href="<?= site_url('assets/advanced-datatable/media/css/dataTables.responsive.css'); ?>" />
-		<link href="<?=site_url('css/style.css'); ?>" rel="stylesheet">
-		<link href="<?=site_url('css/style-responsive.css'); ?>" rel="stylesheet" />
-        <script><?=include(FCPATH.'assets/js/pace.min.js');?></script>
-
-		<!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+ <script><?=include(FCPATH.'js/jquery.js');?></script>
+ <link href="<?=site_url('css/bootstrap.min.css'); ?>" rel="stylesheet">
+<link href="<?=site_url('css/hover.css'); ?>" rel="stylesheet">
+<link href="<?=site_url('css/bootstrap-reset.css'); ?>" rel="stylesheet">
+<link href="<?=site_url('assets/font-awesome/css/font-awesome.css'); ?>" rel="stylesheet" />
+<link href="<?=site_url('assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css'); ?>" rel="stylesheet" type="text/css" media="screen" />
+<link rel="stylesheet" href="<?=site_url('css/owl.carousel.css'); ?>" type="text/css">
+ <link rel="stylesheet" href="<?= site_url('assets/advanced-datatable/media/css/dataTables.responsive.css'); ?>" />
+<link href="<?=site_url('css/style-responsive.css'); ?>" rel="stylesheet" />
+<script><?=include(FCPATH.'assets/js/pace.min.js');?></script>
+<link href="<?=site_url('css/style.css'); ?>" rel="stylesheet">
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
 		<!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
@@ -39,14 +38,22 @@
         include 'js/colori_js.php';
         echo '</style>';
     ?>
-    <!-- <script>
+	
+		  <script>
         jQuery(document).ready(function () {
             $("#black").fadeOut(500);
         });
-    </script> -->
+    </script>
+	
+  
 
 	<body>
-    <!-- <div id="black"></div> -->
+		<!--
+			 <div id="black"></div>
+		-->
+			
+		
+       
 		<section id="container">
 			<!--header start-->
 			<header class="header white-bg">
